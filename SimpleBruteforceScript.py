@@ -5,7 +5,7 @@ colors = {'red': '\033[1;31m',
           'white': '\033[1;37m'} 
 
 headers = {
-    'Cookie': 'PatoAcademy-SandboxId=hLoI7xEVn1Sib83f8g2hhOML'  # Cookie de sessão
+    'Cookie': 'PatoAcademy-SandboxId=00000000000000000'  # Cookie de sessão
 }
 
 for i in range(1, 999, 1): # Começa em 1, vai até 999 somando 1 a cada execução
