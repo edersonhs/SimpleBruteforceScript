@@ -17,7 +17,7 @@ for i in range(1, 999, 1): # Começa em 1, vai até 999 somando 1 a cada execuç
     if status_code == 200:
         print(f"{colors['green']}VALIDO! {colors['white']}Status Code: {status_code} | Tentativa: {colors['green']}{str(i).zfill(3)}")
         break
-    elif status_code == 402:
+    elif status_code == 403:
         print(f"{colors['red']}INVALIDO! {colors['white']}Status Code: {status_code} | Tentativa: {str(i).zfill(3)}")
     else:
         print(f"{colors['red']}ERRO! {colors['white']}Status Code não tratado: {status_code} | Tentativa: {str(i).zfill(3)}")
